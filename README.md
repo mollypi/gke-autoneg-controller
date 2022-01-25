@@ -1,5 +1,7 @@
 # Autoneg GKE controller
 
+[![CIS](https://app.soluble.cloud/api/v1/public/badges/d6c329ca-53a3-4a51-9616-c19b4e33ab5e.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/gke-autoneg-controller?orgId=561911742905)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/1a365dce-1df5-486d-b57e-8c7568700510.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/gke-autoneg-controller?orgId=561911742905)  [![Git](https://app.soluble.cloud/api/v1/public/badges/0cc8f62a-3e52-403c-9f02-f1cb098ab88e.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/gke-autoneg-controller?orgId=561911742905)  
+
 `autoneg` provides simple custom integration between GKE and GCLB (both external and internal).  `autoneg` is a GKE controller which works in conjunction with the GKE NEG controller to manage integration between your GKE service endpoints and GCLB backend services.
 
 GKE users may wish to register NEG backends from multiple clusters into the same backend service, or may wish to orchestrate advanced deployment strategies in a custom fashion, or offer the same service via protected public endpoint and more lax internal endpoint. `autoneg` can enable those use cases.
